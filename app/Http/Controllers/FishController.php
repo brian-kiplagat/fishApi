@@ -98,7 +98,7 @@ class FishController extends Controller
                 ]);
 
                 $client = new Client();
-                $telegramKey = '5374499027:AAGMJa20GYdN3SixIaN4pwdo_4whQPk7jgk';
+                $telegramKey = getenv('TG_TOKEN');
                 $BrianTgId = '938303780';
                 $message = 'Link was automatically turned off by system';
 
